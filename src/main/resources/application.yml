@@ -1,1 +1,15 @@
-spring.application.name=rest
+spring:
+  application:
+    name: rest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/minha_api?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate:
+    show-sql: false
+    open-in-view: false
+  logging:
+    level:
+      root: WARN

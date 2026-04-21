@@ -1,16 +1,18 @@
-package br.com.erudio.unitetests.mapper;
-import static br.com.erudio.mapper.ObjectMapper.parseListObjects;
-import static br.com.erudio.mapper.ObjectMapper.parseObject;
+package com.biadevcosta.rest.unitetestes.mapper;
+
+import static com.biadevcosta.rest.mapper.ObjectMapper.parseListObjects;
+import static com.biadevcosta.rest.mapper.ObjectMapper.parseObject;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 
-import br.com.erudio.data.dto.PersonDTO;
-import br.com.erudio.unitetests.mapper.mocks.MockPerson;
+import com.biadevcosta.rest.data.dto.PersonDTO;
+import com.biadevcosta.rest.model.Person;
+import com.biadevcosta.rest.unitetestes.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.erudio.model.Person;
+
 
 public class ObjectMapperTests {
     MockPerson inputObject;

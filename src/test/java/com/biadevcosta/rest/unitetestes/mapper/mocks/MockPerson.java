@@ -1,10 +1,11 @@
-package com.biadevcosta.rest.unitetestes.mapper;
+package com.biadevcosta.rest.unitetestes.mapper.mocks;
+
+import com.biadevcosta.rest.data.dto.PersonDTO;
+import com.biadevcosta.rest.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.erudio.data.dto.PersonDTO;
-import br.com.erudio.model.Person;
 
 public class MockPerson {
 
